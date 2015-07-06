@@ -20,7 +20,7 @@ This repo is specifically for AQ. For Amy and John, let's create another repo if
 
 1. Picture of you (so she can always see us :)
 2. Message to her (This message goes in CardView)
-3. XML file with top parent CardView 
+3. XML file with top parent CardView (it is under card_yourname.xml file)
 4. Style should be unique. 31 same format cards will be boring.
 
 ## Due Date
