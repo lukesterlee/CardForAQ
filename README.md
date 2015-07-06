@@ -30,5 +30,11 @@ July 8th, 10:00PM
 
 Original Idea : Hoshiko Oki
 
-I'm joining (8 so far) : Luke, Charlyn, Hans, John, Jae, Kadeem, Elvis
+I'm joining (9 so far) : Luke, Charlyn, Hans, John, Jae, Kadeem, Elvis, Tasha
+
+## Volunteers (feel free to sign up/ add your name)
+
+Repository Management : Luke
+
+Design Team : Jae The Design God
 
