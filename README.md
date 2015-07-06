@@ -14,4 +14,9 @@ This repo is for making an app for AQ : Farewell/Thank you card for AQ
 
 ## Specification
 
+## Project Members
+
+Original Idea : Hoshiko Oki
+
+I'm joining : Luke Lee, 
 
