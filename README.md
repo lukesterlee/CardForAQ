@@ -16,6 +16,9 @@ This repo is specifically for AQ. For Amy and John, let's create another repo if
 
 ## Specification
 
+1. Picture of you (so she can always see us :)
+2. 
+
 ## Project Members
 
 Original Idea : Hoshiko Oki
