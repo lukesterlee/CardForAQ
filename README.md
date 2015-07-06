@@ -26,5 +26,5 @@ This repo is specifically for AQ. For Amy and John, let's create another repo if
 
 Original Idea : Hoshiko Oki
 
-I'm joining : Luke, Charlyn, Hans, John, Jae
+I'm joining (8 so far) : Luke, Charlyn, Hans, John, Jae, Kadeem, Elvis
 
