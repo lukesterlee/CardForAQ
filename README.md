@@ -7,6 +7,10 @@ This repo is for making an app for AQ : Farewell/Thank you card for AQ.
 
 This repo is specifically for AQ. For Amy and John, let's create another repo if someone is willing to take the lead.
 
+Since she has an iPhone, Luke will give his spare Galaxy Nexus to her. Therefore, make sure your card looks good in Galaxy Nexus.
+
+We also make a presentation via Chromecast after class on Thursday.
+
 ## Rules
 
 1. Do Not Talk about this except super secured space (a.k.a Telegram :) This should be a big surprise
@@ -31,7 +35,7 @@ July 8th, 10:00PM
 
 Original Idea : Hoshiko Oki
 
-I'm joining (19 so far) : Luke, Charlyn, Hans, John, Jae, Kadeem, Elvis, Tasha, Joshelyn, Marbella, Anthony F, Vanice, Yuliya, Janneisy, Allison, Pooja, George, Sarah
+I'm joining (20 so far) : Luke, Charlyn, Hans, John, Jae, Kadeem, Elvis, Tasha, Joshelyn, Marbella, Anthony F, Vanice, Yuliya, Janneisy, Allison, Pooja, George, Sarah, Jorge
 
 ## Volunteers (feel free to sign up/ add your name)
 
@@ -42,3 +46,5 @@ Design Team : Jae The Design God
 RecyclerView Manager : 
 
 besides cards, we can add more stuff for our memories/time with her at c4q. feel free to take initiative!
+
+
