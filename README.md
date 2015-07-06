@@ -5,7 +5,7 @@ AQ Card App!
 
 This repo is for making an app for AQ : Farewell/Thank you card for AQ.
 
-This repo is specifically for AQ. For Amy and John, let's create another repo if someone is willing to take the lead
+This repo is specifically for AQ. For Amy and John, let's create another repo if someone is willing to take the lead.
 
 ## Rules
 
