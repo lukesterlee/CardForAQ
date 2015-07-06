@@ -22,6 +22,10 @@ This repo is specifically for AQ. For Amy and John, let's create another repo if
 3. XML file with top parent CardView 
 4. Style should be unique. 31 same format cards will be boring.
 
+## Due Date
+
+July 8th, 10:00PM
+
 ## Project Members
 
 Original Idea : Hoshiko Oki
