@@ -38,3 +38,4 @@ Repository Management : Luke
 
 Design Team : Jae The Design God
 
+besides cards, we can add more stuff for our memories/time with her at c4q. feel free to take initiative!
