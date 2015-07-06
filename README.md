@@ -35,7 +35,7 @@ July 8th, 10:00PM
 
 Original Idea : Hoshiko Oki
 
-I'm joining (22 so far) : Luke, Charlyn, Hans, John, Jae, Kadeem, Elvis, Tasha, Joshelyn, Marbella, Anthony F, Vanice, Yuliya, Janneisy, Allison, Pooja, George, Sarah, Jorge, Madelyn, Ramona
+I'm joining (23 so far) : Luke, Charlyn, Hans, John, Jae, Kadeem, Elvis, Tasha, Joshelyn, Marbella, Anthony F, Vanice, Yuliya, Janneisy, Allison, Pooja, George, Sarah, Jorge, Madelyn, Ramona, Sufei
 
 ## Volunteers (feel free to sign up/ add your name)
 
@@ -43,7 +43,7 @@ Repository Management : Luke
 
 Design Team : Jae The Design God
 
-RecyclerView Manager : 
+RecyclerView Manager : Hoshiko
 
 besides cards, we can add more stuff for our memories/time with her at c4q. feel free to take initiative!
 
