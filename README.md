@@ -3,7 +3,9 @@ AQ Card App!
 
 ## Introduction
 
-This repo is for making an app for AQ : Farewell/Thank you card for AQ
+This repo is for making an app for AQ : Farewell/Thank you card for AQ.
+
+This repo is specifically for AQ. For Amy and John, let's create another repo if someone is willing to take the lead
 
 ## Rules
 
@@ -18,5 +20,5 @@ This repo is for making an app for AQ : Farewell/Thank you card for AQ
 
 Original Idea : Hoshiko Oki
 
-I'm joining : Luke Lee, 
+I'm joining : Luke, Charlyn, Hans, John, Jae
 
