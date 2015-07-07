@@ -15,8 +15,6 @@ import java.util.List;
 public class FeedCardsAdapter extends RecyclerView.Adapter<FeedCardsAdapter.CardViewHolder>
         implements ItemTouchHelperAdapter {
 
-
-
     /**
      * Listener for manual initiation of a drag.
      */
@@ -224,33 +222,5 @@ public class FeedCardsAdapter extends RecyclerView.Adapter<FeedCardsAdapter.Card
         }
     }
 
-
-
-//    public static class HoshikoCardViewHolder extends CardViewHolder implements ItemTouchHelperViewHolder {
-//        CardView cvHoshikoCard;
-//        TextView studentName;
-//        TextView message;
-//        ImageView photo;
-//
-//        public HoshikoCardViewHolder(View itemView) {
-//            super(itemView);
-//
-//            this.cvHoshikoCard = (CardView) itemView.findViewById(R.id.hoshiko_cardview);
-//            this.studentName = (TextView) cvHoshikoCard.findViewById(R.id.student_name);
-//            this.message = (TextView) cvHoshikoCard.findViewById(R.id.message);
-//            this.photo = (ImageView) cvHoshikoCard.findViewById(R.id.photo);
-//        }
-//
-//        @Override
-//        public void onItemSelected() {
-//            itemView.setBackgroundColor(Color.LTGRAY);
-//        }
-//
-//
-//        @Override
-//        public void onItemClear() {
-//            itemView.setBackgroundColor(0);
-//        }
-//    }
 
 }

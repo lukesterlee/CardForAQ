@@ -4,7 +4,6 @@ import android.os.Bundle;
 import android.support.v7.app.ActionBarActivity;
 import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
-import android.support.v7.widget.helper.ItemTouchHelper;
 import android.view.Menu;
 import android.view.MenuItem;
 
@@ -28,12 +27,14 @@ public class MainActivity extends ActionBarActivity {
         List<CardData> cardDataList = CardInfo.getCardInfo();
 
         feedCardsAdapter.setCardDataList(cardDataList);
-//        feedCardsAdapter.notifyDataSetChanged();
 
-        ItemTouchHelper.Callback callback =
-                new SimpleItemTouchHelperCallback(feedCardsAdapter);
-        ItemTouchHelper touchHelper = new ItemTouchHelper(callback);
-        touchHelper.attachToRecyclerView(rvFeedCards);
+
+        //touch funstions are still work in progress.
+
+//        ItemTouchHelper.Callback callback =
+//                new SimpleItemTouchHelperCallback(feedCardsAdapter);
+//        ItemTouchHelper touchHelper = new ItemTouchHelper(callback);
+//        touchHelper.attachToRecyclerView(rvFeedCards);
     }
 
     @Override
