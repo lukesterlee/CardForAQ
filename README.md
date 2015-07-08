@@ -22,7 +22,7 @@ We also make a presentation via Chromecast after class on Thursday.
 
 ## Specification
 
-1. Picture of you (so she can always see us :)
+1. Picture of you (under res folder : pic_yourname.png)
 2. Message to her (This message goes in CardView)
 3. XML file with top parent CardView (it is under card_yourname.xml file)
 4. Style should be unique. 31 same format cards will be boring.
