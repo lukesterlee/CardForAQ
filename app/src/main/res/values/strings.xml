@@ -2,7 +2,19 @@
 <resources>
 
     <string name="app_name">CardForAQ</string>
-    <string name="hello_world">Hello world!</string>
     <string name="action_settings">Settings</string>
+    <string name="thank_you_for">THANK YOU FOR</string>
+    <string name="dear_aq">OUR DEAREST AQ,</string>
+    <string name="yuliya">Yuliya</string>
+    <string-array name="qualities">
+        <item>SUPPORT</item>
+        <item>PATIENCE</item>
+        <item>LOVE</item>
+        <item>Being with us</item>
+        <item>Helping us grow</item>
+        <item>Believing in us</item>
+        <item>Making us a family</item>
+    </string-array>
+
 
 </resources>
