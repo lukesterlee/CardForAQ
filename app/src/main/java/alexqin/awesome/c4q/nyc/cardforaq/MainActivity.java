@@ -33,15 +33,6 @@ public class MainActivity extends ActionBarActivity {
 
         feedCardsAdapter.setCardDataList(cardDataList);
 
-
-        //touch funstions are still work in progress.
-
-//        ItemTouchHelper.Callback callback =
-//                new SimpleItemTouchHelperCallback(feedCardsAdapter);
-//        ItemTouchHelper touchHelper = new ItemTouchHelper(callback);
-//        touchHelper.attachToRecyclerView(rvFeedCards);
-    }
-
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
 
