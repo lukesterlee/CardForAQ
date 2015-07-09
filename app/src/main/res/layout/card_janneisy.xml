@@ -13,12 +13,12 @@
         <!--test purpuse please remove line 13 to line 23-->
 
 
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="100dp"
-            android:text="card test"
-            android:textColor="#ff20a5a0"
-            android:textSize="30sp" />
+       <ImageView
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:src="@drawable/Jann3"
+           android:id="@+id/jannImage"
+           />
 
         <!--test purpuse please remove line 13 to line 23-->
 
