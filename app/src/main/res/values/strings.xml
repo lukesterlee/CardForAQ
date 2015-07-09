@@ -24,5 +24,20 @@
     Au revoir, Alex. Apres la pluie, le beau temps. -John</string>
     <string name="message_jose">An aura that can be felt through walls, a smile to be seen from across an ocean, a laugh that resonates through the largest of rooms, and a positive spirit that can uplift the gloomiest of individuals; these are the qualities that make up a person who is an absolute joy to be around, and these are the qualities I see when I look at you AQ. I\'m ultimately indebted to the universe for creating such a wonderful spirit and to you for all you\'ve done for us. I wish you nothing but the best on this next chapter of your life; and remember this isn\'t goodbye, it\'s "See you later". ♥  </string>
 
+    <string name="hans_letter_header">Dear AQ,</string>
+
+    <string name="hans_letter_body">I am sorry for your departure, I learned a lot from you. Not only about
+    programming but how to push forward and to be more positive on this grand journey of life. I wish you the best of
+    luck in any thing you do. I am ever so thankful for meeting someone like you. Thank you alex for everything. </string>
+
+    <string name="hans_letter_ending">From:Hans(Hanbi) Choi</string>
+
+    <string name="aq">!!AQ!!</string>
+    <string name="message">I\'m sorry to hear that you have to go, but don\'t worry.
+        See this as a vacation and get a chance to see your family and friends that care about you.
+We will all miss you here in America so much! Thanks for your awesome support in us and we\'ll see you soon!   </string>
+    <string name="sincerely">Bon Voyage,</string>
+    <string name="myname">Joshelyn V. XD</string>
+
 
 </resources>

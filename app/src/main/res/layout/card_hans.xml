@@ -1,28 +1,45 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:orientation="vertical" android:layout_width="match_parent"
+
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
     android:layout_height="match_parent">
-
-    <android.support.v7.widget.CardView
+    <ScrollView
         android:layout_width="match_parent"
-        android:layout_height="wrap_content">
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
 
-        <!--yourlayout goes here-->
+            <ImageView
+                android:id="@+id/imageOfHans"
+                android:layout_gravity="center"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:src="@drawable/hans_pic"/>
+            <TextView
+                android:id="@+id/headerForHans"
+                android:layout_gravity="start"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="@string/hans_letter_header"/>
+            <TextView
+                android:id="@+id/bodyForHans"
+                android:layout_gravity="center"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="@string/hans_letter_body"/>
+            <TextView
+                android:id="@+id/closingForHans"
+                android:layout_gravity="end"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="@string/hans_letter_ending"/>
 
 
-        <!--test purpuse please remove line 13 to line 23-->
+        </LinearLayout>
+
+    </ScrollView>
 
 
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="100dp"
-            android:text="card test"
-            android:textColor="#ff20a5a0"
-            android:textSize="30sp" />
-
-        <!--test purpuse please remove line 13 to line 23-->
-
-
-    </android.support.v7.widget.CardView>
-
-</LinearLayout>
+</android.support.v7.widget.CardView>

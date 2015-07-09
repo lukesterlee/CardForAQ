@@ -1,28 +1,50 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:orientation="vertical" android:layout_width="match_parent"
-    android:layout_height="match_parent">
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#ffffba3b"
+    android:id="@+id/card_for_aq_anna">
+
 
     <android.support.v7.widget.CardView
         android:layout_width="match_parent"
-        android:layout_height="wrap_content">
-
-        <!--yourlayout goes here-->
+        android:layout_height="wrap_content" />
 
 
-        <!--test purpuse please remove line 13 to line 23-->
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="400dp"
+        android:background="@drawable/card_foraq_3"
+        android:layout_gravity="center_horizontal" />
 
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingTop="15dp"
+        android:text="❤️有缘盼望再相见❤️"
+        android:id="@+id/textView"
+        android:textSize="35sp"
+        android:textColor="#ffff050e"
+        android:layout_gravity="center_horizontal" />
 
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="100dp"
-            android:text="card test"
-            android:textColor="#ff20a5a0"
-            android:textSize="30sp" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView2"
+        android:text="Alex! We'll miss you!"
+        android:textSize="35sp"
+        android:layout_gravity="center_horizontal"
+        android:textColor="#ff1612ff" />
 
-        <!--test purpuse please remove line 13 to line 23-->
-
-
-    </android.support.v7.widget.CardView>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Anna @ C4Q "
+        android:textSize="25sp"
+        android:paddingTop="10dp"
+        android:id="@+id/textView3"
+        android:layout_gravity="right"
+        android:textColor="#ffff18ba" />
 
 </LinearLayout>
