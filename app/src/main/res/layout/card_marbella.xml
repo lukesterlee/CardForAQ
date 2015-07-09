@@ -7,21 +7,47 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content">
 
-        <!--yourlayout goes here-->
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_margin="16dp"
+            android:background="#C0C96A">
 
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="AQ, "
+                android:textStyle="italic"
+                android:textColor="#C96ABA"
+                android:id="@+id/marb_tv1" />
 
-        <!--test purpuse please remove line 13 to line 23-->
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="20sp"
+                android:textColor="#C96ABA"
+                android:text="Thank you so much for motivating and inspiring us to learn and be optimistic. We will miss you tons and we wish you the best in France! Keep in touch and we hope to have you back in the US soon."
+                android:id="@+id/marb_tv2"
+                android:textStyle="italic"
+                android:layout_marginLeft="32dp"
+                android:layout_marginBottom="5dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginRight="32dp" />
 
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="#C96ABA"
+                android:textStyle="italic"
+                android:text="Marbella"
+                android:id="@+id/marb_tv3"
+                android:gravity="right"
+                android:layout_gravity="right" />
 
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="100dp"
-            android:text="card test"
-            android:textColor="#ff20a5a0"
-            android:textSize="30sp" />
-
-        <!--test purpuse please remove line 13 to line 23-->
-
+        </LinearLayout>
 
     </android.support.v7.widget.CardView>
 
