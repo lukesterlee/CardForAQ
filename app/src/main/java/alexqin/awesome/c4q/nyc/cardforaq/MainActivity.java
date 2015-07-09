@@ -19,15 +19,6 @@ public class MainActivity extends ActionBarActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        tester = (Button) findViewById(R.id.tester);
-
-        tester.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                Intent intent = new Intent(MainActivity.this,JoseCardActivity.class);
-                startActivity(intent);
-            }
-        });
     }
 
 
