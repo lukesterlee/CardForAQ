@@ -1,18 +1,15 @@
 package alexqin.awesome.c4q.nyc.cardforaq;
 
 import android.content.Intent;
-import android.net.Uri;
-import android.support.v7.app.ActionBarActivity;
-import android.support.v7.widget.LinearLayoutManager;
-import android.support.v7.widget.RecyclerView;
 import android.graphics.Color;
 import android.os.Bundle;
 import android.support.v7.app.ActionBarActivity;
+import android.support.v7.widget.LinearLayoutManager;
+import android.support.v7.widget.RecyclerView;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
 import android.widget.TextView;
-import android.widget.Button;
 
 import java.util.List;
 
@@ -35,6 +32,7 @@ public class MainActivity extends ActionBarActivity {
         List<CardData> cardDataList = CardInfo.getCardInfo();
 
         feedCardsAdapter.setCardDataList(cardDataList);
+    }
 
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
