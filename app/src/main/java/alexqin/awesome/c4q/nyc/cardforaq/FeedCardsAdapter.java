@@ -58,15 +58,7 @@ public class FeedCardsAdapter extends RecyclerView.Adapter<FeedCardsAdapter.Card
     public CardViewHolder onCreateViewHolder(ViewGroup parent, int viewType) {
         switch (viewType) {
 
-            case CardData.CARD_SEQ_ALLISON:
-                View allisonCard = LayoutInflater.from(parent.getContext()).inflate(R.layout.card_allison, parent, false);
-                CardViewHolder allisonCardViewHolder = new CardViewHolder(allisonCard);
-                return allisonCardViewHolder;
 
-            case CardData.CARD_SEQ_ALVIN:
-                View alvinCard = LayoutInflater.from(parent.getContext()).inflate(R.layout.card_alvin, parent, false);
-                CardViewHolder alvinCardViewHolder = new CardViewHolder(alvinCard);
-                return alvinCardViewHolder;
 
             case CardData.CARD_SEQ_ANNA:
                 View annaCard = LayoutInflater.from(parent.getContext()).inflate(R.layout.card_anna, parent, false);
@@ -103,10 +95,7 @@ public class FeedCardsAdapter extends RecyclerView.Adapter<FeedCardsAdapter.Card
                 CardViewHolder hoshikoCardViewHolder = new CardViewHolder(hoshikoCard);
                 return hoshikoCardViewHolder;
 
-            case CardData.CARD_SEQ_JAE:
-                View jaeCard = LayoutInflater.from(parent.getContext()).inflate(R.layout.card_jae, parent, false);
-                CardViewHolder jaeCardViewHolder = new CardViewHolder(jaeCard);
-                return jaeCardViewHolder;
+
 
             case CardData.CARD_SEQ_JANNEISY:
                 View janneisyCard = LayoutInflater.from(parent.getContext()).inflate(R.layout.card_janneisy, parent, false);
@@ -168,10 +157,7 @@ public class FeedCardsAdapter extends RecyclerView.Adapter<FeedCardsAdapter.Card
                 CardViewHolder sarahCardViewHolder = new CardViewHolder(sarahCard);
                 return sarahCardViewHolder;
 
-            case CardData.CARD_SEQ_SUFEI:
-                View sufeiCard = LayoutInflater.from(parent.getContext()).inflate(R.layout.card_sufei, parent, false);
-                CardViewHolder sufeiCardViewHolder = new CardViewHolder(sufeiCard);
-                return sufeiCardViewHolder;
+
 
             case CardData.CARD_SEQ_TASHA:
                 View tashaCard = LayoutInflater.from(parent.getContext()).inflate(R.layout.card_tasha, parent, false);

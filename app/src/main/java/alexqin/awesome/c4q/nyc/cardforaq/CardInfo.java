@@ -11,8 +11,6 @@ public class CardInfo {
     public static List<CardData> getCardInfo() {
         List<CardData> cardDataList = new ArrayList<>();
 
-        CardData allison = new CardData(CardData.CARD_SEQ_ALLISON);
-        CardData alvin = new CardData(CardData.CARD_SEQ_ALVIN);
         CardData anna = new CardData(CardData.CARD_SEQ_ANNA);
         CardData anthonyf= new CardData(CardData.CARD_SEQ_ANTHONYF);
         CardData charlyn = new CardData(CardData.CARD_SEQ_CHARLYN);
@@ -20,7 +18,6 @@ public class CardInfo {
         CardData george = new CardData(CardData.CARD_SEQ_GEORGE);
         CardData hans = new CardData(CardData.CARD_SEQ_HANS);
         CardData hoshiko = new CardData(CardData.CARD_SEQ_HOSHIKO);
-        CardData jae = new CardData(CardData.CARD_SEQ_JAE);
         CardData janneisy = new CardData(CardData.CARD_SEQ_JANNEISY);
         CardData john = new CardData(CardData.CARD_SEQ_JOHN);
         CardData jorge = new CardData(CardData.CARD_SEQ_JORGE);
@@ -33,15 +30,11 @@ public class CardInfo {
         CardData ramona = new CardData(CardData.CARD_SEQ_RAMONA);
         CardData ray = new CardData(CardData.CARD_SEQ_RAY);
         CardData sarah = new CardData(CardData.CARD_SEQ_SARAH);
-        CardData sufei = new CardData(CardData.CARD_SEQ_SUFEI);
         CardData tahsa = new CardData(CardData.CARD_SEQ_TASHA);
         CardData vanice = new CardData(CardData.CARD_SEQ_VANICE);
         CardData yuliya = new CardData(CardData.CARD_SEQ_YULIYA);
 
 
-
-        cardDataList.add(allison);
-        cardDataList.add(alvin);
         cardDataList.add(anna);
         cardDataList.add(anthonyf);
         cardDataList.add(charlyn);
@@ -49,7 +42,6 @@ public class CardInfo {
         cardDataList.add(george);
         cardDataList.add(hans);
         cardDataList.add(hoshiko);
-        cardDataList.add(jae);
         cardDataList.add(janneisy);
         cardDataList.add(john);
         cardDataList.add(jorge);
@@ -62,7 +54,6 @@ public class CardInfo {
         cardDataList.add(ramona);
         cardDataList.add(ray);
         cardDataList.add(sarah);
-        cardDataList.add(sufei);
         cardDataList.add(tahsa);
         cardDataList.add(vanice);
         cardDataList.add(yuliya);

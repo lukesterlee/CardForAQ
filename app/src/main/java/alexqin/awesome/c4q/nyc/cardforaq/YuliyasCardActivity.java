@@ -14,7 +14,7 @@ import android.widget.ViewSwitcher;
 /**
  * Created by July on 7/9/15.
  */
-public class YuliyasCard extends Activity {
+public class YuliyasCardActivity extends Activity {
     private String textToShow[];
     private int currentIndex;
     private int messageCount;
@@ -35,7 +35,7 @@ public class YuliyasCard extends Activity {
         textSwitcher.setFactory(new ViewSwitcher.ViewFactory() {
             public View makeView() {
                 // create new textView and set the properties like color, size etc
-                TextView myText = new TextView(YuliyasCard.this);
+                TextView myText = new TextView(YuliyasCardActivity.this);
                 myText.setGravity(Gravity.TOP | Gravity.CENTER_HORIZONTAL);
                 myText.setTextSize(36);
                 myText.setTextColor(getResources().getColor(R.color.white));
