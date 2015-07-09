@@ -3,6 +3,15 @@
 
     <string name="app_name">CardForAQ</string>
     <string name="hello_world">Hello world!</string>
+
+    <string name="hans_letter_header">Dear AQ,</string>
+
+    <string name="hans_letter_body">I am sorry for your departure, I learned a lot from you. Not only about
+    programming but how to push forward and to be more positive on this grand journey of life. I wish you the best of
+    luck in any thing you do. I am ever so thankful for meeting someone like you. Thank you alex for everything. </string>
+
+    <string name="hans_letter_ending">From:Hans(Hanbi) Choi</string>
+
     <string name="action_settings">Settings</string>
 
 </resources>
