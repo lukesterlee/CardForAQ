@@ -26,6 +26,7 @@ public class CardData {
     public static final int CARD_SEQ_TASHA = 23;
     public static final int CARD_SEQ_VANICE = 24;
     public static final int CARD_SEQ_YULIYA = 25;
+    public static final int CARD_SEQ_JOSE = 26;
 
     int studentId;
     public CardData() {
