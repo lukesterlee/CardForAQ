@@ -2,7 +2,12 @@
 <resources>
 
     <string name="app_name">CardForAQ</string>
-    <string name="hello_world">Hello world!</string>
     <string name="action_settings">Settings</string>
+    <string name="aq">!!AQ!!</string>
+    <string name="message">I'm sorry to hear that you have to go, but don't worry.
+        See this as a vacation and get a chance to see your family and friends that care about you.
+We will all miss you here in America so much! Thanks for your awesome support in us and we'll see you soon!   </string>
+    <string name="sincerely">Bon Voyage,</string>
+    <string name="myname">Joshelyn V. XD</string>
 
 </resources>

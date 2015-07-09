@@ -1,17 +1,28 @@
 package alexqin.awesome.c4q.nyc.cardforaq;
 
-import android.support.v7.app.ActionBarActivity;
+import android.graphics.Bitmap;
+import android.graphics.BitmapFactory;
 import android.os.Bundle;
+import android.support.v7.app.ActionBarActivity;
 import android.view.Menu;
 import android.view.MenuItem;
+import android.widget.ImageView;
 
 
 public class MainActivity extends ActionBarActivity {
+
+    ImageView jvimageView;
+    RoundImage roundedImage;
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+        jvimageView = (ImageView) findViewById(R.id.jvimageView);
+        Bitmap bm = BitmapFactory.decodeResource(getResources(), R.drawable.pic_joshelyn);
+        roundedImage = new RoundImage(bm);
+        jvimageView.setImageDrawable(roundedImage);
     }
 
 
