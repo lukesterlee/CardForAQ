@@ -185,7 +185,7 @@ public class FeedCardsAdapter extends RecyclerView.Adapter<FeedCardsAdapter.Card
 
             case CardData.CARD_SEQ_YULIYA:
                 View yuliyaCard = LayoutInflater.from(parent.getContext()).inflate(R.layout.card_yuliya, parent, false);
-                CardViewHolder yuliyaCardViewHolder = new YuliyaViewHolder(yuliyaCard);
+                CardViewHolder yuliyaCardViewHolder = new CardViewHolder(yuliyaCard);
                 return yuliyaCardViewHolder;
 
 
@@ -196,45 +196,6 @@ public class FeedCardsAdapter extends RecyclerView.Adapter<FeedCardsAdapter.Card
 
     @Override
     public void onBindViewHolder(CardViewHolder holder, int position) {
-        if (holder.getItemViewType()==25) {
-            final YuliyaViewHolder yuliyaViewHolder = (YuliyaViewHolder) holder;
-
-            final String textToShow[]=context.getResources().getStringArray(R.array.qualities);
-            final int messageCount=textToShow.length;
-            currentIndex = -1;
-            // Set the ViewFactory of the TextSwitcher that will create TextView object when asked
-            yuliyaViewHolder.textSwitcher.setFactory(new ViewSwitcher.ViewFactory() {
-                public View makeView() {
-                    // create new textView and set the properties like color, size etc
-                    TextView myText = new TextView(context);
-                    myText.setGravity(Gravity.TOP | Gravity.CENTER_HORIZONTAL);
-                    myText.setTextSize(36);
-                    myText.setTextColor(context.getResources().getColor(R.color.white));
-                    return myText;
-                }
-            });
-
-            // Declare the in and out animations and initialize them
-            Animation in = AnimationUtils.loadAnimation(context, android.R.anim.slide_in_left);
-            Animation out = AnimationUtils.loadAnimation(context, android.R.anim.slide_out_right);
-
-            // set the animation type of textSwitcher
-            yuliyaViewHolder.textSwitcher.setInAnimation(in);
-            yuliyaViewHolder.textSwitcher.setOutAnimation(out);
-
-            // When clicked on Button TextSwitcher will switch between texts
-            yuliyaViewHolder.btnNext.setOnClickListener(new View.OnClickListener() {
-
-                public void onClick(View v) {
-                    currentIndex++;
-                    // If index reaches maximum reset it
-                    if(currentIndex==messageCount)
-                        currentIndex=0;
-                    yuliyaViewHolder.textSwitcher.setText(textToShow[currentIndex]);
-                }
-            });
-
-        }
     }
 
     @Override
@@ -269,17 +230,5 @@ public class FeedCardsAdapter extends RecyclerView.Adapter<FeedCardsAdapter.Card
             super(itemView);
         }
 
-    }
-
-    public class YuliyaViewHolder extends CardViewHolder {
-
-        protected TextSwitcher textSwitcher;
-        protected Button btnNext;
-
-        public YuliyaViewHolder(View itemView) {
-            super(itemView);
-            textSwitcher = (TextSwitcher) itemView.findViewById(R.id.textSwitcher);
-            btnNext=(Button)itemView.findViewById(R.id.buttonNext);
-        }
     }
 }

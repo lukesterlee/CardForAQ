@@ -1,5 +1,6 @@
 package alexqin.awesome.c4q.nyc.cardforaq;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.support.v7.app.ActionBarActivity;
 import android.support.v7.widget.LinearLayoutManager;
@@ -77,5 +78,10 @@ public class MainActivity extends ActionBarActivity {
                 " need you! I will really miss you tons! C4Q won't be the same without you. \nIf you ever need anything please reach out to me!" +
                 "\n\nI love you!" +
                 "\n -Madey"+"\n PS. Try to enjoy France while you're there... and my offer still stands ;) See you soon!");
+    }
+
+    public void yuliyaActivity(View v) {
+        Intent intent = new Intent(this, YuliyasCard.class);
+        startActivity(intent);
     }
 }
