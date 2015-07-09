@@ -9,19 +9,36 @@
 
         <!--yourlayout goes here-->
 
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:background="#009688">
 
-        <!--test purpuse please remove line 13 to line 23-->
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="start"
+                android:text="Dear AQ,"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:textColor="#FFFFFF"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#FFFFFF"
+                android:text="I will always treasure the guidance and support you have offered us during our time in Accesscode, and will never forget it. You were always a person I could turn to if I ever needed help, and I hope this farewell doesn\'t mean you will become a stranger. You are an amazing friend, an awesome individual, and a true mentor. I wish you the best, and hope you get to see us transform into exceptional programmers! You will be missed, truly."/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="end"
+                android:textColor="#FFFFFF"
+                android:text="- Kadeem"/>
 
 
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="100dp"
-            android:text="card test"
-            android:textColor="#ff20a5a0"
-            android:textSize="30sp" />
-
-        <!--test purpuse please remove line 13 to line 23-->
-
+        </LinearLayout>
 
     </android.support.v7.widget.CardView>
 

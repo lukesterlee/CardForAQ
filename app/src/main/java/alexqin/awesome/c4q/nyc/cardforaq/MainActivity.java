@@ -32,6 +32,7 @@ public class MainActivity extends ActionBarActivity {
         List<CardData> cardDataList = CardInfo.getCardInfo();
 
         feedCardsAdapter.setCardDataList(cardDataList);
+    }
 
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
