@@ -40,10 +40,10 @@ public class MainActivity extends ActionBarActivity {
 
         feedCardsAdapter.setCardDataList(cardDataList);
 
-//        jvimageView = (ImageView) findViewById(R.id.jvimageView);
-//        Bitmap bm = BitmapFactory.decodeResource(getResources(), R.drawable.pic_joshelyn);
-//        roundedImage = new RoundImage(bm);
-//        jvimageView.setImageDrawable(roundedImage);
+        jvimageView = (ImageView) findViewById(R.id.jvimageView);
+        Bitmap bm = BitmapFactory.decodeResource(getResources(), R.drawable.pic_joshelyn);
+        roundedImage = new RoundImage(bm);
+        jvimageView.setImageDrawable(roundedImage);
     }
 
     @Override
