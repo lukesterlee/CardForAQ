@@ -103,3 +103,4 @@ public class SimpleItemTouchHelperCallback extends ItemTouchHelper.Callback {
         itemViewHolder.onItemClear();
     }
 }
+

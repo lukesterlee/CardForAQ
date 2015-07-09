@@ -17,6 +17,7 @@
             android:background="#009688"
             android:orientation="vertical">
 
+
             <TextView
                 android:id="@+id/our"
                 android:layout_width="match_parent"

@@ -28,6 +28,7 @@ public class MainActivity extends ActionBarActivity {
         rvFeedCards.setLayoutManager(llm);
 
         FeedCardsAdapter feedCardsAdapter = new FeedCardsAdapter(this);
+
         rvFeedCards.setAdapter(feedCardsAdapter);
 
         List<CardData> cardDataList = CardInfo.getCardInfo();

@@ -1,4 +1,5 @@
 package alexqin.awesome.c4q.nyc.cardforaq;
+
 /**
  + * Created by Hoshiko on 7/6/15.
  + */
@@ -33,7 +34,7 @@ public class CardData {
 
     int studentId;
     public CardData() {
-}
+    }
     public CardData(int studentId) {
         this.studentId = studentId;
         }
