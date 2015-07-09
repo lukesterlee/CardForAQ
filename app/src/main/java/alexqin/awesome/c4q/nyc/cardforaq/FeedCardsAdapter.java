@@ -52,7 +52,6 @@ public class FeedCardsAdapter extends RecyclerView.Adapter<FeedCardsAdapter.Card
         switch (viewType) {
 
 
-
             case CardData.CARD_SEQ_ANNA:
                 View annaCard = LayoutInflater.from(parent.getContext()).inflate(R.layout.card_anna, parent, false);
                 CardViewHolder annaCardViewHolder = new CardViewHolder(annaCard);
@@ -105,6 +104,11 @@ public class FeedCardsAdapter extends RecyclerView.Adapter<FeedCardsAdapter.Card
                 CardViewHolder jorgeCardViewHolder = new CardViewHolder(jorgeCard);
                 return jorgeCardViewHolder;
 
+            case CardData.CARD_SEQ_JOSE:
+                View joseCard = LayoutInflater.from(parent.getContext()).inflate(R.layout.card_jose, parent, false);
+                CardViewHolder joseCardViewHolder = new CardViewHolder(joseCard);
+                return joseCardViewHolder;
+
             case CardData.CARD_SEQ_JOSHELYN:
                 View joshelynCard = LayoutInflater.from(parent.getContext()).inflate(R.layout.card_joshelyn, parent, false);
                 CardViewHolder joshelynCardViewHolder = new CardViewHolder(joshelynCard);
@@ -151,7 +155,6 @@ public class FeedCardsAdapter extends RecyclerView.Adapter<FeedCardsAdapter.Card
                 return sarahCardViewHolder;
 
 
-
             case CardData.CARD_SEQ_TASHA:
                 View tashaCard = LayoutInflater.from(parent.getContext()).inflate(R.layout.card_tasha, parent, false);
                 CardViewHolder tashaCardViewHolder = new CardViewHolder(tashaCard);
@@ -167,10 +170,7 @@ public class FeedCardsAdapter extends RecyclerView.Adapter<FeedCardsAdapter.Card
                 CardViewHolder yuliyaCardViewHolder = new CardViewHolder(yuliyaCard);
                 return yuliyaCardViewHolder;
 
-            case CardData.CARD_SEQ_JOSE:
-                View joseCard = LayoutInflater.from(parent.getContext()).inflate(R.layout.card_jose, parent, false);
-                CardViewHolder joseCardViewHolder = new CardViewHolder(joseCard);
-                return joseCardViewHolder;
+
 
 
             default:

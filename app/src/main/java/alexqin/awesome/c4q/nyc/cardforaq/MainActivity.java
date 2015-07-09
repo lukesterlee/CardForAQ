@@ -3,6 +3,7 @@ package alexqin.awesome.c4q.nyc.cardforaq;
 import android.content.Intent;
 import android.graphics.Bitmap;
 import android.graphics.BitmapFactory;
+import android.net.Uri;
 import android.support.v7.app.ActionBarActivity;
 import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
@@ -85,6 +86,40 @@ public class MainActivity extends ActionBarActivity {
 
     public void yuliyaActivity(View v) {
         Intent intent = new Intent(this, YuliyasCardActivity.class);
+        startActivity(intent);
+    }
+
+    public void feelsOn(View view){
+        TextView messageJose = (TextView) findViewById(R.id.jose_message);
+        messageJose.setVisibility(View.VISIBLE);
+    }
+
+    public void feelsOff(View view){
+        TextView messageJose = (TextView) findViewById(R.id.jose_message);
+        messageJose.setVisibility(View.INVISIBLE);
+    }
+
+    public void twitterIntent(View view){
+        Uri uri = Uri.parse("http://www.twitter.com/SeeYaGarcia");
+        Intent intent = new Intent(Intent.ACTION_VIEW, uri);
+        startActivity(intent);
+    }
+
+    public void instagramIntent(View view){
+        Uri uri = Uri.parse("http://www.instagram.com/AyoJoankss");
+        Intent intent = new Intent(Intent.ACTION_VIEW, uri);
+        startActivity(intent);
+    }
+
+    public void linkedInIntent(View view){
+        Uri uri = Uri.parse("https://www.linkedin.com/in/jgarcia162");
+        Intent intent = new Intent(Intent.ACTION_VIEW, uri);
+        startActivity(intent);
+    }
+
+    public void wordpressIntent(View view){
+        Uri uri = Uri.parse("https://inwardmovement.wordpress.com/");
+        Intent intent = new Intent(Intent.ACTION_VIEW, uri);
         startActivity(intent);
     }
 }
