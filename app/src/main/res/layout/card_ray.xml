@@ -7,21 +7,27 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content">
 
-        <!--yourlayout goes here-->
 
-
-        <!--test purpuse please remove line 13 to line 23-->
 
 
         <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="100dp"
-            android:text="card test"
-            android:textColor="#ff20a5a0"
-            android:textSize="30sp" />
-
-        <!--test purpuse please remove line 13 to line 23-->
-
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Clap once if you can hear me!"
+            android:textSize="30sp"
+            android:textStyle="bold|italic"
+            android:textColor="#FF0000"
+            android:id="@+id/rayTV1"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Words can't express all my gratitude, thank you so much for every thing you've done for me, I wouldn't have been able to make it this far without you.  You will be truly missed.  Access Code won't be the same without you, but we will do our best to make you proud.  J'espère vous revoir bientôt"
+            android:textSize="20sp"
+            android:textColor="#FFFFFF"/>
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:src="@drawable/notes"/>
 
     </android.support.v7.widget.CardView>
 

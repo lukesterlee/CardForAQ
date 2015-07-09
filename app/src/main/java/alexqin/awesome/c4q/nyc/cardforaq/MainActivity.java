@@ -21,6 +21,11 @@ public class MainActivity extends ActionBarActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+<<<<<<< HEAD
+=======
+
+    }
+>>>>>>> d766e9970d57ba73af5eda5406ce3545b0b8a372
 
         RecyclerView rvFeedCards = (RecyclerView) findViewById(R.id.recycler_view);
 
