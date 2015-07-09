@@ -1,14 +1,47 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:orientation="vertical" android:layout_width="match_parent"
-    android:layout_height="match_parent">
+    android:layout_height="match_parent"
+    >
+
 
     <android.support.v7.widget.CardView
         android:layout_width="match_parent"
-        android:layout_height="wrap_content">
+        android:layout_height="match_parent"
+        android:background="#ff598d7e">
+
+        <!--yourlayout goes here-->
 
 
+        <!--test purpuse please remove line 13 to line 23-->
 
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="100dp"
+            android:text="card test"
+            android:textColor="#ff20a5a0"
+            android:textSize="30sp" />
+
+        <!--test purpuse please remove line 13 to line 23-->
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:contentDescription=""
+            android:src="@drawable/johng"
+          />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_gravity="bottom"
+            android:id="@+id/johntextview"
+            android:text="@string/johnmessage"
+            android:textColor="#FFFFFFFF"
+            android:textStyle="bold"
+            android:paddingBottom="100dp" />
     </android.support.v7.widget.CardView>
+
 
 </LinearLayout>

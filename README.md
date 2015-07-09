@@ -35,7 +35,7 @@ July 8th, 10:00PM
 
 Original Idea : Hoshiko Oki
 
-I'm joining (25 so far) : Luke, Charlyn, Hans, John, Kadeem, Elvis, Tasha, Joshelyn, Marbella, Anthony F, Vanice, Yuliya, Janneisy, Pooja, George, Sarah, Jorge, Madelyn, Ramona, Sufei, Jose, Anthony M, Abass, Ray
+I'm joining (25 so far) : Luke, Charlyn, Hans, John, Kadeem, Elvis, Tasha, Joshelyn, Marbella, Anthony F, Vanice, Yuliya, Janneisy, Pooja, George, Sarah, Jorge, Madelyn, Ramona, Jose, Anthony M, Abass, Ray
 
 ## Volunteers (feel free to sign up/ add your name)
 

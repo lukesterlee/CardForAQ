@@ -1,14 +1,53 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:orientation="vertical" android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
     android:layout_height="match_parent">
+
 
     <android.support.v7.widget.CardView
         android:layout_width="match_parent"
-        android:layout_height="wrap_content">
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/pic"
+            android:layout_marginTop="160dp"
+            android:src="@drawable/paintandheart"/>
 
 
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Quand tu veux construire un bateau, ne commence pas par rassembler du bois, couper des planches et distribuer du travail, mais reveille au sein des hommes le desir de la mer grande et large."
+            android:id="@+id/textView"
+            android:typeface="serif"
+            android:textStyle="bold|italic"
+            android:textColor="#ff021407" />
+        <Button
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/clickHereMad"
+            android:text="Click Here"
+            android:onClick="madButtonClick"
+            android:layout_marginTop="420dp"
+            android:background="#e7db3e7f" />
+
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:text=""
+            android:gravity="center"
+            android:id="@+id/fullTextMad"
+            android:background="#0000ffff"
+            android:layout_gravity="center_horizontal" />
 
     </android.support.v7.widget.CardView>
+
+
 
 </LinearLayout>
