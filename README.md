@@ -22,7 +22,7 @@ We also make a presentation via Chromecast after class on Thursday.
 
 ## Specification
 
-1. Picture of you (so she can always see us :)
+1. Picture of you (under res folder : pic_yourname.png)
 2. Message to her (This message goes in CardView)
 3. XML file with top parent CardView (it is under card_yourname.xml file)
 4. Style should be unique. 31 same format cards will be boring.
@@ -35,7 +35,7 @@ July 8th, 10:00PM
 
 Original Idea : Hoshiko Oki
 
-I'm joining (26 so far) : Luke, Charlyn, Hans, John, Jae, Kadeem, Elvis, Tasha, Joshelyn, Marbella, Anthony F, Vanice, Yuliya, Janneisy, Allison, Pooja, George, Sarah, Jorge, Madelyn, Ramona, Sufei, Jose, Anthony M, Abass
+I'm joining (25 so far) : Luke, Charlyn, Hans, John, Kadeem, Elvis, Tasha, Joshelyn, Marbella, Anthony F, Vanice, Yuliya, Janneisy, Pooja, George, Sarah, Jorge, Madelyn, Ramona, Sufei, Jose, Anthony M, Abass, Ray
 
 ## Volunteers (feel free to sign up/ add your name)
 
