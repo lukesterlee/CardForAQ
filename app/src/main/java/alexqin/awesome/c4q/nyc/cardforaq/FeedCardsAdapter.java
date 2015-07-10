@@ -167,6 +167,10 @@ public class FeedCardsAdapter extends RecyclerView.Adapter<FeedCardsAdapter.Card
                 CardViewHolder yuliyaCardViewHolder = new CardViewHolder(yuliyaCard);
                 return yuliyaCardViewHolder;
 
+            case CardData.CARD_SEQ_ROSEMARY:
+                View rosemaryCard = LayoutInflater.from(parent.getContext()).inflate(R.layout.card_rosemary, parent, false);
+                CardViewHolder rosemaryCardViewHolder = new CardViewHolder(rosemaryCard);
+                return rosemaryCardViewHolder;
 
             default:
                 return null;

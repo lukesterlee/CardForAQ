@@ -33,6 +33,7 @@ public class CardInfo {
         CardData tahsa = new CardData(CardData.CARD_SEQ_TASHA);
         CardData vanice = new CardData(CardData.CARD_SEQ_VANICE);
         CardData yuliya = new CardData(CardData.CARD_SEQ_YULIYA);
+        CardData rosemary = new CardData(CardData.CARD_SEQ_ROSEMARY);
 
 
         cardDataList.add(anna);
@@ -57,6 +58,7 @@ public class CardInfo {
         cardDataList.add(tahsa);
         cardDataList.add(vanice);
         cardDataList.add(yuliya);
+        cardDataList.add(rosemary);
 
         return cardDataList;
     }
