@@ -1,28 +1,35 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:orientation="vertical" android:layout_width="match_parent"
-    android:layout_height="match_parent">
+    android:layout_height="match_parent"
+    android:weightSum="1"
+    android:background="#ff20a5a0">
 
-    <android.support.v7.widget.CardView
+    <ImageView
+        android:layout_width="300dp"
+        android:layout_height="300dp"
+        android:
+        android:src="@drawable/hoshiko"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="40dp"
+        android:layout_marginRight="40dp" />
+
+    <TextView
         android:layout_width="match_parent"
-        android:layout_height="wrap_content">
+        android:layout_height="wrap_content"
+        android:text="Dear AQ"
+        android:textColor="#ffffffff"
+        android:textSize="20sp" />
 
-        <!--yourlayout goes here-->
+    <TextView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="I can not thank you enough for everything you have done for us from the beginning.  You let me demo my first game app with Java (Rock, Papre, Scissors) in front of the whole class and that was really memorable moment for me.  You have been always there for us and I learned so much from you.  My dream has been to tell you that I complete a great project someday.  I will keep that dream so please stay in touch!  I really hope that you will come back to NY soon again.  Hoshiko"
+    android:textColor="#ffffffff"
+    android:textSize="12sp"
+    android:layout_alignParentTop="true"
+    android:layout_weight="0.43"
+        android:id="@+id/" />
 
-
-        <!--test purpuse please remove line 13 to line 23-->
-
-
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="100dp"
-            android:text="card test"
-            android:textColor="#ff20a5a0"
-            android:textSize="30sp" />
-
-        <!--test purpuse please remove line 13 to line 23-->
-
-
-    </android.support.v7.widget.CardView>
 
 </LinearLayout>
