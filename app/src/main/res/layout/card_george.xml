@@ -1,26 +1,29 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:orientation="vertical" android:layout_width="match_parent"
-    android:layout_height="match_parent">
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
 
     <android.support.v7.widget.CardView
         android:layout_width="match_parent"
-        android:layout_height="wrap_content">
-
-        <!--yourlayout goes here-->
-
-
-        <!--test purpuse please remove line 13 to line 23-->
-
+        android:layout_height="wrap_content"
+        >
 
         <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="100dp"
-            android:text="card test"
-            android:textColor="#ff20a5a0"
-            android:textSize="30sp" />
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:background="#383838 "
+            android:textColor="#ffffff "
+            android:text="Hey Aq, so I never thought I'd be writting a goodbye letter to you; It seemed as if you were going to stay forever, and I know you and the C4Q team really wanted you to stay on board. As you mentioned you will be back in the US eventually and the only thing I can think of is: Enjoy your vacation in France. Hopefully you'll be hearing from all of us soon enough, with brand new jobs and exciting new things, and you'll be proud to have been a catalyst to our success. much love..." />
 
-        <!--test purpuse please remove line 13 to line 23-->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="George Syrimis"
+            android:textSize="30dp"
+            android:textColor="#ffffff "
+            android:background="#383838 "
+            android:layout_marginTop="150dp"/>
 
 
     </android.support.v7.widget.CardView>
