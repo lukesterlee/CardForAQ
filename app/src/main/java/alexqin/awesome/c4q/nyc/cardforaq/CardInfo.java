@@ -47,6 +47,7 @@ public class CardInfo {
         cardDataList.add(john);
         cardDataList.add(jorge);
         cardDataList.add(joshelyn);
+        cardDataList.add(jose);
         cardDataList.add(kadeem);
         cardDataList.add(luke);
         cardDataList.add(madelyn);
@@ -58,7 +59,7 @@ public class CardInfo {
         cardDataList.add(tahsa);
         cardDataList.add(vanice);
         cardDataList.add(yuliya);
-        cardDataList.add(jose);
+
 
         return cardDataList;
     }
