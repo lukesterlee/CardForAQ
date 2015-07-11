@@ -14,7 +14,6 @@ public class CardInfo {
         CardData anna = new CardData(CardData.CARD_SEQ_ANNA);
         CardData anthonyf= new CardData(CardData.CARD_SEQ_ANTHONYF);
         CardData charlyn = new CardData(CardData.CARD_SEQ_CHARLYN);
-        CardData elvis = new CardData(CardData.CARD_SEQ_ELVIS);
         CardData george = new CardData(CardData.CARD_SEQ_GEORGE);
         CardData hans = new CardData(CardData.CARD_SEQ_HANS);
         CardData hoshiko = new CardData(CardData.CARD_SEQ_HOSHIKO);
@@ -26,7 +25,6 @@ public class CardInfo {
         CardData luke = new CardData(CardData.CARD_SEQ_LUKE);
         CardData madelyn = new CardData(CardData.CARD_SEQ_MADELYN);
         CardData marbella = new CardData(CardData.CARD_SEQ_MARBELLA);
-        CardData pooja = new CardData(CardData.CARD_SEQ_POOJA);
         CardData ramona = new CardData(CardData.CARD_SEQ_RAMONA);
         CardData ray = new CardData(CardData.CARD_SEQ_RAY);
         CardData sarah = new CardData(CardData.CARD_SEQ_SARAH);
@@ -39,7 +37,6 @@ public class CardInfo {
         cardDataList.add(anna);
         cardDataList.add(anthonyf);
         cardDataList.add(charlyn);
-        cardDataList.add(elvis);
         cardDataList.add(george);
         cardDataList.add(hans);
         cardDataList.add(hoshiko);
@@ -52,7 +49,6 @@ public class CardInfo {
         cardDataList.add(luke);
         cardDataList.add(madelyn);
         cardDataList.add(marbella);
-        cardDataList.add(pooja);
         cardDataList.add(ramona);
         cardDataList.add(ray);
         cardDataList.add(sarah);

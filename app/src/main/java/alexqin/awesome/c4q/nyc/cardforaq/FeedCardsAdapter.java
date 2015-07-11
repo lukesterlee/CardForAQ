@@ -5,6 +5,9 @@ import android.support.v7.widget.RecyclerView;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.ImageView;
+
+import com.squareup.picasso.Picasso;
 
 import java.util.ArrayList;
 import java.util.Collections;
@@ -54,23 +57,26 @@ public class FeedCardsAdapter extends RecyclerView.Adapter<FeedCardsAdapter.Card
 
             case CardData.CARD_SEQ_ANNA:
                 View annaCard = LayoutInflater.from(parent.getContext()).inflate(R.layout.card_anna, parent, false);
+
                 CardViewHolder annaCardViewHolder = new CardViewHolder(annaCard);
                 return annaCardViewHolder;
 
             case CardData.CARD_SEQ_ANTHONYF:
                 View anthonyfCard = LayoutInflater.from(parent.getContext()).inflate(R.layout.card_anthonyf, parent, false);
+
                 CardViewHolder anthonyfCardViewHolder = new CardViewHolder(anthonyfCard);
                 return anthonyfCardViewHolder;
 
             case CardData.CARD_SEQ_CHARLYN:
                 View charlynCard = LayoutInflater.from(parent.getContext()).inflate(R.layout.card_charlyn, parent, false);
+                ImageView i3 = (ImageView) charlynCard.findViewById(R.id.group);
+                Picasso.with(context).load(R.drawable.group).into(i3);
+                ImageView i4 = (ImageView) charlynCard.findViewById(R.id.classgrid);
+                Picasso.with(context).load(R.drawable.classgrid).into(i4);
+                ImageView i5 = (ImageView) charlynCard.findViewById(R.id.sufei);
+                Picasso.with(context).load(R.drawable.sufei).into(i5);
                 CardViewHolder charlynCardViewHolder = new CardViewHolder(charlynCard);
                 return charlynCardViewHolder;
-
-            case CardData.CARD_SEQ_ELVIS:
-                View elvisCard = LayoutInflater.from(parent.getContext()).inflate(R.layout.card_elvis, parent, false);
-                CardViewHolder elvisCardViewHolder = new CardViewHolder(elvisCard);
-                return elvisCardViewHolder;
 
             case CardData.CARD_SEQ_GEORGE:
                 View georgeCard = LayoutInflater.from(parent.getContext()).inflate(R.layout.card_george, parent, false);
@@ -91,6 +97,8 @@ public class FeedCardsAdapter extends RecyclerView.Adapter<FeedCardsAdapter.Card
 
             case CardData.CARD_SEQ_JANNEISY:
                 View janneisyCard = LayoutInflater.from(parent.getContext()).inflate(R.layout.card_janneisy, parent, false);
+                ImageView i8 = (ImageView) janneisyCard.findViewById(R.id.jannImage);
+                Picasso.with(context).load(R.drawable.jann3).resize(550,550).into(i8);
                 CardViewHolder janneisyCardViewHolder = new CardViewHolder(janneisyCard);
                 return janneisyCardViewHolder;
 
@@ -111,6 +119,13 @@ public class FeedCardsAdapter extends RecyclerView.Adapter<FeedCardsAdapter.Card
 
             case CardData.CARD_SEQ_JOSHELYN:
                 View joshelynCard = LayoutInflater.from(parent.getContext()).inflate(R.layout.card_joshelyn, parent, false);
+
+                ImageView i9 = (ImageView) joshelynCard.findViewById(R.id.sailor);
+                Picasso.with(context).load(R.drawable.joshelyn_sailor_cats).resize(550,550).into(i9);
+
+                ImageView i10 = (ImageView) joshelynCard.findViewById(R.id.jvimageView);
+                Picasso.with(context).load(R.drawable.pic_joshelyn).resize(550,550).into(i10);
+
                 CardViewHolder joshelynCardViewHolder = new CardViewHolder(joshelynCard);
                 return joshelynCardViewHolder;
 
@@ -121,6 +136,8 @@ public class FeedCardsAdapter extends RecyclerView.Adapter<FeedCardsAdapter.Card
 
             case CardData.CARD_SEQ_LUKE:
                 View lukeCard = LayoutInflater.from(parent.getContext()).inflate(R.layout.card_luke, parent, false);
+                ImageView i6 = (ImageView) lukeCard.findViewById(R.id.luke);
+                Picasso.with(context).load(R.drawable.luke).resize(550,550).into(i6);
                 CardViewHolder lukeCardViewHolder = new CardViewHolder(lukeCard);
                 return lukeCardViewHolder;
 
@@ -134,10 +151,6 @@ public class FeedCardsAdapter extends RecyclerView.Adapter<FeedCardsAdapter.Card
                 CardViewHolder marbellaCardViewHolder = new CardViewHolder(marbellaCard);
                 return marbellaCardViewHolder;
 
-            case CardData.CARD_SEQ_POOJA:
-                View poojaCard = LayoutInflater.from(parent.getContext()).inflate(R.layout.card_pooja, parent, false);
-                CardViewHolder poojaCardViewHolder = new CardViewHolder(poojaCard);
-                return poojaCardViewHolder;
 
             case CardData.CARD_SEQ_RAMONA:
                 View ramonaCard = LayoutInflater.from(parent.getContext()).inflate(R.layout.card_ramona, parent, false);

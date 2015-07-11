@@ -6,8 +6,7 @@ package alexqin.awesome.c4q.nyc.cardforaq;
 public class CardData {
     public static final int CARD_SEQ_ANNA = 2 ;
     public static final int CARD_SEQ_ANTHONYF = 3 ;
-    public static final int CARD_SEQ_CHARLYN = 4;
-    public static final int CARD_SEQ_ELVIS = 5;
+    public static final int CARD_SEQ_CHARLYN = 1;
     public static final int CARD_SEQ_GEORGE = 6;
     public static final int CARD_SEQ_HANS = 7;
     public static final int CARD_SEQ_HOSHIKO = 8;
@@ -19,7 +18,6 @@ public class CardData {
     public static final int CARD_SEQ_LUKE = 15;
     public static final int CARD_SEQ_MADELYN = 16;
     public static final int CARD_SEQ_MARBELLA = 17;
-    public static final int CARD_SEQ_POOJA = 18;
     public static final int CARD_SEQ_RAMONA = 19;
     public static final int CARD_SEQ_RAY = 20;
     public static final int CARD_SEQ_SARAH = 21;
